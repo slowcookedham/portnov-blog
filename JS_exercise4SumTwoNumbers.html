@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+    
+    
+<body>
+    <form name="formInput">
+    <input type="number" name="firstNumber"><BR>
+    <input type="number" name="secondNumber"><BR>
+    <input type="button" value="Adds the previous two numbers." OnClick="why()">
+        </form>
+    <script type="text/javascript">
+        function why(){
+        var num1 = document.formInput.firstNumber.value;
+        var num2 = document.formInput.secondNumber.value;
+    {
+            var summed = (parseInt)num1 + (parseInt)num2;
+    
+        document.write("hello " +summed); //this concatenates. look for type casting solution in previous lines of code.
+    }
+    }
+    </script>
+    
+   <!-- 
+    <p>15.4999 repeating 15 times rounds up lol</p>
+    <p>document.forma.uinput is the full path of the object. being that particular text field</p><br>
+-->
+    
+        </body>
+
+        </html>

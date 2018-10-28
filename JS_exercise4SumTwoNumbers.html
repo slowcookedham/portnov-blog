@@ -10,15 +10,15 @@
     <input type="number" name="firstNumber"><BR>
     <input type="number" name="secondNumber"><BR>
     <input type="button" value="Adds the previous two numbers." OnClick="why()">
-        </form>
+    </form>
     <script type="text/javascript">
-        function why(){
-        var num1 = document.formInput.firstNumber.value;
-        var num2 = document.formInput.secondNumber.value;
+    function why(){
+    var num1 = document.formInput.firstNumber.value;
+    var num2 = document.formInput.secondNumber.value;
+    var summed = num1*1 + num2*1;
     {
-            var summed = (parseInt)num1 + (parseInt)num2;
+        document.write("BITE ME" +summed); //this concatenates. look for type casting solution in previous lines of code.
     
-        document.write("hello " +summed); //this concatenates. look for type casting solution in previous lines of code.
     }
     }
     </script>

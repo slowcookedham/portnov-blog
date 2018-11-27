@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+    
+    
+<body>
+    <form name="forma">
+    <input type="text" name="uinput"><BR>
+    <input type="button" value="Please input a radius of any circle. Pureeze." OnClick="showRadius()">
+    </form>
+    <script type="text/javascript">
+    function showRadius(){
+    var pi=314;
+    var radiusInput = document.forma.uinput.value;
+    {
+        document.write(radiusInput*pi/100*2);
+    }
+    }
+    </script>
+    
+   <!-- 
+    <p>15.4999 repeating 15 times rounds up lol</p>
+    <p>document.forma.uinput is the full path of the object. being that particular text field</p><br>
+-->
+    
+</body>
+
+</html>

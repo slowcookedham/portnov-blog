@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+    
+    
+<body>
+    <form name="forma">
+    <input type="text" name="uinput"><BR>
+    <input type="button" value="Input a temperature in F. Converts to C." OnClick="convertCelcius()">
+    </form>
+    <script type="text/javascript">
+    function convertCelcius(){
+    var f_Input = document.forma.uinput.value;
+    {
+        document.write((f_Input-32)*5/9);
+    }
+    }
+    </script>
+    
+   <!-- 
+    <p>15.4999 repeating 15 times rounds up lol</p>
+    <p>document.forma.uinput is the full path of the object. being that particular text field</p><br>
+-->
+    
+</body>
+
+</html>

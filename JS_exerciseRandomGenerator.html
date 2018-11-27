@@ -1,0 +1,14 @@
+<HTML>
+<HEAD><script type="text/javascript">
+
+function generate_random()
+{
+var rndm=Math.random();
+var rounded=Math.round(100000*rndm);
+document.write(rounded);
+}
+</script></HEAD>
+
+<BODY><FORM id="forma" name="formOne" runat="server" onsubmit="return generate_random()">
+<P><input type="submit" value="Generate random number"></P>
+</BODY></HTML>

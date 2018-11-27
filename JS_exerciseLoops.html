@@ -1,0 +1,20 @@
+<html>
+<HEAD>
+</HEAD>
+<body>
+<script type="text/javascript">
+
+    var rnd= Math.random();
+    var zip= Math.round(rnd*100000);
+    
+    var zip_str=String(zip);
+    while (zip_str.length<5)
+{
+zip_str="0" + zip_str;
+}
+
+document.write(zip_str + "<BR>");
+</script>
+
+</body>
+</html>

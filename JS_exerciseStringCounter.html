@@ -1,0 +1,19 @@
+<HTML>
+<HEAD>
+<script type="text/javascript">
+
+function count_string()
+{
+var str = myForm.text1.value; 
+return str.length;
+}
+</script>
+</HEAD><BODY>
+
+<form name="myForm">
+    Reversing string: <input type="text" name="text1" size="50" onkeyup="myForm.counter.value=count_string()">
+    <br>
+    Characters in string: <input type="text" name="counter" size="12" > 	
+    <br>
+    <input type="button" value="Change to Upper" onClick="myForm.counter.value=count_string()">
+</form></body></html>

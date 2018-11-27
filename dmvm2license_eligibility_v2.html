@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+    
+    
+<body>
+    <form name="forma">
+    <input type="text" name="uinput"><BR>
+    <input type="button" value="Check Eligibility" OnClick="CheckEligibility()">
+    </form>
+    <script type="text/javascript">
+    function CheckEligibility(){
+    var students_age = document.forma.uinput.value;
+    //var students_age=15.5; hard-coded value
+    if (students_age<15.5) //logical condition, answer to which is always 'Yes' or 'No'
+    {
+        document.write(students_age +"sorry, you cannot take any courses or take exam");
+    }
+        else if
+            (students_age>=15.5 && students_age<16)
+            {
+                document.write(students_age +"Come to DMV with your legal guardian")
+            }
+        else
+            {
+                document.write(students_age +"No restrictions. Welcome to DMV")
+            }
+    }
+    </script>
+    
+   <!-- 
+    <p>15.4999 repeating 15 times rounds up lol</p>
+    <p>document.forma.uinput is the full path of the object. being that particular text field</p><br>
+-->
+    
+</body>
+
+</html>
